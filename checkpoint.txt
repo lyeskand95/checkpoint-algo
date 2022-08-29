@@ -1,0 +1,35 @@
+Debut 
+var i,cpt,T: integer
+1/length(T) 
+2/cpt=0;
+for (i 1 to length(T))
+switch (T[i]){
+case A:
+       cpt++;
+       break;
+case E:
+       cpt++;
+       break;
+case I:
+       cpt++;
+       break;
+case O:
+       cpt++;
+       break;
+case U:
+       cpt++;
+       break;
+case Y:
+       cpt++;
+       break;
+default: 
+       break;}
+
+3/cpt=1;
+for(i 1 to length(T))
+if(T[i]=="")then
+cpt++;
+else 
+i++;
+endif
+fin
